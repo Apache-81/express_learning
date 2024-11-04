@@ -1,3 +1,22 @@
-npm init //создаем манифест проекта
-в package.json добавляем строку "type": "module"
-npm install dotenv //устанавливаем библиотека для считывания содержимого файла окружения
+//создаем манифест проекта
+npm init 
+
+//в package.json добавляем строку "type": "module"
+
+//устанавливаем библиотека для считывания содержимого файла окружения
+npm install dotenv 
+
+// устанавливаем nodemon на время разработки
+npm install nodemon --save-dev 
+
+//Добавлем настроку nodemon для игнорирования изменений в папке "data" в манифесте проекта
+},
+  "nodemonConfig": {
+   "ignore": ["data"]
+  }
+// Добавляем в манифест проекта сценарий serve запускающий nodemon
+"scripts": {
+    "serve": "nodemon"
+
+//Устанавливаем express
+npm install express
