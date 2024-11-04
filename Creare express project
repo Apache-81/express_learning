@@ -22,4 +22,4 @@ npm install nodemon --save-dev
 npm install express
 
 //Запускаем приложение
-npm run serves
+npm run serve
