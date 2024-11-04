@@ -23,3 +23,6 @@ npm install express
 
 //Запускаем приложение
 npm run serve
+
+// Генерируем файл .gitignore
+npx gitignore node
