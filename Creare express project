@@ -21,6 +21,13 @@ npm install nodemon --save-dev
 //Устанавливаем express
 npm install express
 
+//Устанавливаем библиотеку Cors. 
+npm install cors
+
+//Привязываем к приложению 
+app.use(cors({origin: true}));
+
+
 //Запускаем приложение
 npm run serve
 
